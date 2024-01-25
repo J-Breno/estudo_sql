@@ -61,3 +61,25 @@ WHERE
 
 SELECT * FROM DimEmployee
 WHERE NOT DepartmentName = 'Marketing'
+
+SELECT * FROM DimProduct WHERE ColorName IN ('Silver','Blue', 'White','Red', 'Black')
+
+SELECT * FROM DimProduct
+WHERE ProductName LIKE '%MP3 Player%'
+
+SELECT * FROM DimProduct
+WHERE ProductDescription LIKE 'Type%'
+
+SELECT * FROM DimProduct
+WHERE UnitPrice NOT BETWEEN 50 AND 100
+
+
+SELECT * FROM DimProduct
+WHERE UnitPrice BETWEEN 50 AND 100
+ORDER BY UnitPrice DESC
+
+SELECT * FROM DimEmployee
+WHERE HireDate BETWEEN '2000-01-01' AND '2000-12-31'
+
+SELECT * FROM DimCustomer
+WHERE CompanyName IS NULL
