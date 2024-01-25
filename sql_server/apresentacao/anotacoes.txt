@@ -1,0 +1,43 @@
+SQL_SERVER
+
+SQL é uma linguagem de programação que vai nos permitir manipular dados em nosso banco de dados
+
+mas o que é um dado?
+
+são informações que permite chegar ao conhecimento de algo.
+
+Os dados são o novo petróleo.
+
+Os bancos de dados são um conjunto tabelas que vão organizar esses dados
+
+uma compra online é um dado
+
+uma curtida no instagram é um dado;
+
+tabela é diversas compras online
+
+diversas transferência bancárias
+
+diversas curtidas em fotos no instagram
+
+e um banco de dados são um conjunto de tabelas
+
+SQL - Structured Query Language; fazer consultas em banco de dados, manipular dados;
+
+SGBD - Sistemas de Gerenciamento de banco de dados
+
+
+SGBD é composto essencialmente por 2 partes:
+
+um servidor, onde vamos conseguir armazernar os nossos bancos de dados
+
+uma interface amigável que  nos permite escrever os códigos em SQLpara acessar os bancos de dados.
+
+SGBD são MySql, PostgreSQL, SQL server etc;
+
+sgbd são ambientes onde iremos usar o sql, o sql só é a linguagem de programação
+
+T-SQL, PL-SQL, PL-PgQSL são somente variações da linguagem SQL
+
+
+
