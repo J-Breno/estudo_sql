@@ -1,0 +1,39 @@
+Modelo de dados/dominío em nivel conceitual
+Modelo de dados/domínio em nível de análise
+Modelo conceitual
+
+* Modelo conceitual
+
+definição 1: é um modelo que descreve a estrutura das informações que o sistema vai gerenciar (Wazlawick)
+
+definição 2: é o Modelo de Domínio em nível de Análise:
+- Pertence ao escopo do problema e não ao escopo da solução 
+- Independente de paradigma
+- Independente de tecnologia
+
+Para representar o Modelo Conceitual, vamos utilizar a ferramenta:
+- Diagrama de classes da UML
+
+Um conceito pode ser qualquer entidade que tenha um significado para o sistema e que tenha uma necessidade de armazenamento de dados.
+Exemplo: Cliente, pedido, produto, fornecedor, etc.
+
+Um conceito deve ser uma unidade coesa(não se deve utilizar informações de várias coisas distintas em um mesmo conceito)
+
+Atributos - são tipo caracteristicas
+
+Um conceito é representado por um retângulo dividido em três seções
+A primeira seção contém os atributos
+Cada atributo é representado por:
+- nome: tipo
+
+O tipo é opcional no MC
+A terceira seção não é usado no MC (Modelo Conceitual)
+
+Atributo identificador: estereótipo<<oid>>
+Pode haver valor inicial
+Pode haver atributos derivados(read only) 
+
+Visão geral do sistema: documento de formato livre que especifica, em linhas gerais, os requisitos do sistema.
+
+Conceitos são substantivos
+
