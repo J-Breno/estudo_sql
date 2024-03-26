@@ -79,3 +79,5 @@ Autoassociação - Quando um conceito é associado com ele próprio
 Modelo Conceitual representa a estruutra dos dados.
 - Conceitos/atributos e como eles se inter-relacionam entre si
 
+Cada ocorrência de um conceito é chamado de instância ou objeto
+
