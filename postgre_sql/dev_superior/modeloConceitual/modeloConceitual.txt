@@ -37,3 +37,45 @@ Visão geral do sistema: documento de formato livre que especifica, em linhas ge
 
 Conceitos são substantivos
 
+
+* Associações
+
+Cada ocorrência dos meus conceitos recebe o nome de Instância ou Objeto
+
+
+Associação é um relacionamento estático entre dois conceitos
+
+
+
+* Multiplicidade
+É a quantidade minima e máxima de objetos que uma associação permite em cada um de seus papéis.
+
+Para achar as multiplicidades, pergunte:
+1 <conceito> pode ter quantos <papel>?
+ou seja,
+1 <carro> pode ter quantos <donos>?
+1 <pessoa> pode ter quantos <carros>?
+
+, = ou
+.. = a ou ate
+* = vários
+
+Associação é obrigatória se o conceito associado desempenha um papel de multiplicidade mínima maior que zero
+
+Conceito dependente é se ele possuir pelo menos uma associação obrigatória.
+
+vamos dá um exemplo de um carro que tem pelo menos 1 dono
+ele é um conceito dependente, pois depende do dono
+já uma pessoa possuir carro é independente
+pois ele pode conter nenhum ou mais carros
+
+Pessoa <---- Carro
+Carro depende de Pessoa, mas pode usar a multiplicidade
+
+Associação multiplas - ter mais de um associação
+
+Autoassociação - Quando um conceito é associado com ele próprio
+
+Modelo Conceitual representa a estruutra dos dados.
+- Conceitos/atributos e como eles se inter-relacionam entre si
+
