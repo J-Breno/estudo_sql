@@ -1,0 +1,53 @@
+Os dados são armazenados em tableas;
+Tabela possui o nome técnico de relação;
+Uma tabela é um conjunto de registros. Cada registro corresponde a uma linha da tabela;
+Cada coluna da tabela recebe o nome de campo ou atributo;
+O termo base de dados é tipicamente usado como sinônimo de banco de dados;
+Uma base de dados também contém várias regras ou constraints;
+A estrutura de uma base de dados(composta de tabelas relacionadas e de regras) é chamada de esquema de dados;
+
+* Tabela
+é um conjunto não ordenado de registros exclusivos;
+composta por registro (linhas) e campos (colunas);
+cada registro (linha) é identificado por uma chave primária;
+Tabelas são relacionadas entre si por meio de chaves estrangeiras;
+O valor de cada campo deve conter um valor:
+   - Simples e não divisível (não pode ser composto)
+   - Monovalorado (não pode conter vários valores)
+
+* Chaves candidátas, primárias, alternativas
+
+- Chave candidata: coluna(ou combinação de colunas) que identifica unicamente um registro da tabela. no caso que vire algo que seja unico
+
+- Chave primária: é uma dentre as chaves candidatas, escolhida para ser a maneira "padrão" de se identificar um registro na tabela; 
+
+- Chave alternativas: é o conjunto das chaves candidatas, menos a chave primária; no caso são as candidatas que não são as chaves primárias
+
+Uma chave deve ser:
+única(o valor não pode repetir)
+obrigatória(valor não pode ser nulo)
+mínima( não deve existir outra chave candidata contida nela) 
+
+- Chave estrangeira: coluna(ou combinação de colunas) que corresponde à chave primária de "outra" tablea;
+- Serve para fazer relacionamentos, fazendo referência ao registro de "outra" tabela;
+
+* Integridade referencial
+- Integridade referencial refere-se à consistência dos dados de uma chave estrangeira
+- Se há valor em uma chave estrangeira, então DEVE existir o valor correspondente na chave primária da tabela referenciada;
+
+Nota: integridade é um tema amplo. há outros tipos de integridade, tais como:
+integridade de domínio (tipos de dados corretos)
+integridade de vazio (campo que não aceita valor nulo)
+integridade de chave(campos de valores únicos)
+
+A especificação (ou notação) textual de um esquema de dados, usando o Modelo Relacional, é feita como uma listagem de tabelas, onde cada tabela tem a seguinte sintaxe:
+<nome da tabela> (<campo1>, <campo2>, ..., <campoN>)
+	<lista de definições de chaves estrangeiras>
+
+tb_item_pedido (pedido_id, produto_id, quantidade, desconto)
+	pedido_id referencia td_pedido(id)
+	produto_id referencia td_pedido(id)
+
+n = muitos
+quando é muitos para um, tem uma chave estrangeira do lado do muitos
+

@@ -81,3 +81,33 @@ Modelo Conceitual representa a estruutra dos dados.
 
 Cada ocorrência de um conceito é chamado de instância ou objeto
 
+---------------------------------------------------------------------------------
+
+Associação todo parte: agregação e composição
+
+Associação todo-parte é quando um conceito é parte de outro que representa um todo, desenhamos um diamante no lado do todo.
+Diamante branco: agregação - o conceito não é exclusivo = vamos dar o exemplo do pneu: Eu posso tirar o pneu de um carro e colocar em outro
+Diamante preto: composição - o conceito parte é exclusivo = exemplo da cidade: eu não posso tirar uma cidade de um estado e dizer que ela é parte de outro estado.
+
+na exclusividade( diamante preto ), na parte do todo, sempre vai ser 1 ou 0..1
+
+ficaria incorreto eu usar relação todo parte com um carro e uma pessoa, pois o carro não faz parte de uma pessoa.
+
+Agregação - diamante branco - mais fraco
+Composição - diamante preto - mais forte - exclusividade (1 ou 0..1)
+Use diamante somente quando realmente for uma associação todo-parte
+Não é a composição que indica deleção em cascata
+
+A classe de associação indica associação única, se tiver mais de uma associação juntas, eles devem ser colocadas em uma classe comum
+
+O mesmo "a" pode ser associado mais de uma vez com o mesmo "b"? Se sim, faça uma classe normal. se não, faça uma classe de associação
+
+
+
+
+
+
+
+
+
+(°.°)  (T_T)  (*o*)  (°L°)  (¨_¨) (^-^) (°o°) <(°-^)< \(°o°)/ (-_-) (+_+) ¬¬(`o`)
